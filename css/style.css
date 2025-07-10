@@ -11,6 +11,25 @@ body{
     max-width: 1365px;
     margin: 0 auto;
 }
+button.primary-btn{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 14px 36px 14px 36px;
+    border: 0px;
+    outline: 0px;
+    background: rgb(78, 71, 255);
+}
+
+
+/* -----------------------
+    Header Section Start
+--------------------------- */
 header {
     background-image: url('../images/Hero-bg.png');
     background-position: center;
@@ -63,34 +82,24 @@ header {
     text-align: center;
     padding-bottom: 20px;
 }
-button.primary-btn{
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0px;
-    text-align: center;
-    padding: 14px 36px 14px 36px;
-    border: 0px;
-    outline: 0px;
-    background: rgb(78, 71, 255);
-}
+/* ------------------------
+    Header Section End
+--------------------------- */
+
 
 /* -----------------------
-    Agency Section Start
+    About Section Start
 --------------------------- */
-.agency-section{
+.about-section{
     padding: 50px 0px;
 }
-.agency-flex{
+.about-flex{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
 }
-.agency-context > h2{
+.about-context > h2{
     color: rgb(37, 36, 50);
     font-family: Raleway;
     font-size: 42px;
@@ -99,7 +108,7 @@ button.primary-btn{
     letter-spacing: 0px;
     text-align: left;
 }
-.agency-context > p{
+.about-context > p{
     color: rgba(37, 36, 50, 0.653);
     font-family: Raleway;
     font-size: 17px;
@@ -109,13 +118,13 @@ button.primary-btn{
     text-align: left;
     padding: 20px 0px 30px 0px;
 }
-.agency-img > img{
+.about-img > img{
     width: 403px;
     height: 328px;
     border-radius: 48px;
 }
 /* -----------------------
-    Agency Section End
+    About Section End
 --------------------------- */
 
 
@@ -331,7 +340,7 @@ button.primary-btn{
 .contact-field > label{
     color: rgb(0, 0, 0);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0px;
@@ -379,3 +388,58 @@ button.primary-btn{
     text-align: center;
     margin-top: 10px;
 }
+/* ----------------------------
+    Contact Section End
+-------------------------------- */
+
+
+/* -----------------------------
+    Footer Section Start 
+-------------------------------- */
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    padding: 80px 100px;
+    margin-top: 50px;
+}
+.footer-context{
+    text-align: center;
+}
+.footer-logo > span{
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.footer-context-area > p{
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    width: 531px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.useful-link > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.useful-link > ul > li > a{
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+/* ------------------------------
+    Footer Section End
+--------------------------------- */
