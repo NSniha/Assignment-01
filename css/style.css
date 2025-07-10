@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: rgb(245, 248, 255);
+}
 .container{
     width: 84%;
     max-width: 1365px;
@@ -254,3 +257,68 @@ button.primary-btn{
 /* ---------------------------
     Reviews Section End
 ----------------------------- */
+
+
+/* ----------------------------
+    Subscribe Section Start 
+------------------------------- */
+.subscribe-section{
+    padding: 50px 0px;
+}
+.subscribe-bg{
+    padding: 80px 80px;
+    border-radius: 14px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+.subscribe-bg > h2{
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+.subscribe-bg > p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    padding: 10px 0px 30px 0px;
+}
+.subscribe-image{
+    padding-top: 50px;
+}
+.subscribe-image > img{
+    border-radius: 48px;
+    width: 840px;
+    height: 364.77px;
+} 
+/* -----------------------------
+    Subscribe Section End
+-------------------------------- */
+
+
+/* -----------------------------
+    Contact Section Start
+-------------------------------- */
+.contact-section{
+    padding: 50px 0px;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.contact-context > h2{
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0%;
+}
