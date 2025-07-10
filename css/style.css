@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 84%;
+    max-width: 1365px;
+    margin: 0 auto;
+}
+header {
+    background-image: url('../images/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 630px;
+    background-size: cover;
+    border-bottom: 3px dashed rgb(163 163 169 / 36%);
+    margin-bottom: 50px;
+}
+.header-flex{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo > span{
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.header-btn > button{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    padding: 12px 36px 12px 36px;
+    outline: 0px;
+    border: 0px;
+}
+.header-text{
+    padding: 100px 0px;
+    text-align: center;
+}
+.header-text > h1{
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+button.primary-btn{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 14px 36px 14px 36px;
+    border: 0px;
+    outline: 0px;
+    background: rgb(78, 71, 255);
+}
+
+/* -----------------------
+    Agency Section Start
+--------------------------- */
+.agency-section{
+    padding: 50px 0px;
+}
+.agency-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.agency-context > h2{
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.agency-context > p{
+    color: rgba(37, 36, 50, 0.653);
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 20px 0px 30px 0px;
+}
+.agency-img > img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* -----------------------
+    Agency Section End
+--------------------------- */
+
+
+/* -------------------------
+    User Section Start
+--------------------------- */
+.user-section{
+    padding: 50px 0px;
+}
+.user-bg{
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+    padding: 80px 80px;
+    text-align: center;
+}
+.user-bg > h2{
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.user-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+}
+.user-context > h3{
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 97px;
+    letter-spacing: 0px;
+}
+.user-context > p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+/* -------------------------
+    User Section End
+----------------------------- */
+
+
+/* ---------------------------
+    Reviews Section Start 
+------------------------------ */
+.reviews-section{
+    padding: 50px 0px;
+}
+.reviews-area > h2{
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.reviews-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+.review-card{
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 24px 24px;
+}
+.review-ratings > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4px;
+}
+.review-ratings > ul > li{
+    width: 20px;
+    color: rgb(254, 197, 8);
+}
+.reviews-context{
+    padding: 26px 0px 25px 0px;
+}
+.reviews-context > h3{
+    color: rgb(30, 30, 30);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -2%;
+}
+.reviews-context > p{
+    color: rgb(30, 30, 30);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+.review-profile-flex{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.review-img > img{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+.reviewer-details > h4{
+    color: rgb(117, 117, 117);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+.reviewer-details > small{
+    color: rgb(179, 179, 179);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+/* ---------------------------
+    Reviews Section End
+----------------------------- */
